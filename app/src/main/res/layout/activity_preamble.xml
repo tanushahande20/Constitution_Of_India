@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/rpreamble"
+        android:background="@color/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/prback"
+            android:src="@drawable/baseline_keyboard_arrow_left_24"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preamble"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/rpreamble">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/futura_medium_bt"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:id="@+id/text3"
+        android:text="CONSTITUTION OF INDIA "
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="5dp"
+        android:layout_above="@id/text1"
+
+         />
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="500dp"
+        android:layout_height="5dp"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="5dp"
+        />
+    <ProgressBar
+
+        android:id="@+id/progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/text5"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="400dp"/>
+
+</RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

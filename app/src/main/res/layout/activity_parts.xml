@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Parts_Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/rpartss"
+        android:background="@color/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/pbackk"
+            android:src="@drawable/baseline_keyboard_arrow_left_24"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parts"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+    <VideoView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:id="@+id/img5"
+        android:layout_below="@id/rpartss"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/text20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/text21"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/text20"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/text21"
+        android:textSize="15dp"
+        android:id="@+id/text22"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressbar7"
+        android:visibility="visible"/>
+
+</RelativeLayout>

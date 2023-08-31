@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Roomdb.InsertActivity">
+    <EditText
+        android:id="@+id/text26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/text27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text26"
+        android:hint="write here imp notes"
+        android:textColorHint="@color/white"
+        android:inputType="textLongMessage"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/save" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:id="@+id/rv"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmets.AboutActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/rdisclaimer"
+        android:background="@color/black">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/dback"
+            android:src="@drawable/baseline_keyboard_arrow_left_24"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disclaimer"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@id/rdisclaimer">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:text="Title: Constitution of India - Your Guide to the Foundation of a Nation
+
+Description:
+The Constitution of India app is your comprehensive and user-friendly guide to explore and understand the bedrock of India's governance and legal system. Whether you're a student, a legal professional, a history enthusiast, or simply curious about India's rich constitutional heritage, this app is your go-to resource for easy access to the world's lengthiest and most intricate constitution.
+
+Key Features:
+
+1. Full Text of the Constitution: Access the complete and updated text of the Constitution of India, including all amendments and schedules. Explore each part, chapter, and article with ease through a user-friendly interface.
+
+2. Search and Navigate: Effortlessly search for specific articles or keywords within the constitution. Convenient navigation tools help you jump to any section you need to reference quickly.
+
+3. Amendments and Historical Notes: Discover the historical context behind each amendment made to the constitution. Learn how India's founding principles have evolved over time to reflect the changing needs of the nation.
+
+4. Fundamental Rights and Duties: Explore the fundamental rights guaranteed to Indian citizens, ensuring they have access to justice, equality, and freedom. Understand the corresponding fundamental duties that encourage responsible citizenship.
+
+5. Directive Principles of State Policy: Gain insights into the state's guiding principles, which inform the government's policies for social, economic, and political justice, promoting the welfare of all citizens.
+
+6. Case Law and Precedents: Access a curated collection of landmark judgments by the Supreme Court of India, which have shaped and interpreted various constitutional provisions.
+
+7. Founding Fathers and Historical Context: Immerse yourself in the historical background and contributions of the stalwarts who drafted the constitution, including Dr. B.R. Ambedkar, Pandit Jawaharlal Nehru, and others.
+
+8. User-Friendly Interface: The app offers an intuitive and visually appealing interface for a seamless user experience. Font size customization and dark mode support enhance readability in any environment.
+
+9. Offline Access: No internet connection? No problem! Download the constitution and other important documents for offline access, ensuring you always have the information at your fingertips.
+
+10. Stay Updated: Get notified of any amendments, new cases, or significant constitutional events to stay informed about the latest developments in India's constitutional landscape.
+
+Download the Constitution of India app today and embark on a journey to explore the foundational principles that govern the world's largest democracy. Empower yourself with knowledge and understanding of the Indian Constitution, a living document that continues to shape the destiny of a vibrant and diverse nation."/>
+    </ScrollView>
+
+</RelativeLayout>

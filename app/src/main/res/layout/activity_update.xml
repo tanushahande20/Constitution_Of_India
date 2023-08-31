@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Roomdb.UpdateActivity">
+    <EditText
+        android:id="@+id/text31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/text32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text31"
+        android:hint="Enter Notes Here"
+        android:inputType="textLongMessage"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+    <ImageView
+        android:id="@+id/update2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/edit"
+        android:layout_marginTop="40dp"
+        android:text="UPDATE"/>
+
+</RelativeLayout>
